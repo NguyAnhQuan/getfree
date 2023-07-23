@@ -8,6 +8,8 @@
     left: 35%; 
     top: 40vh;
     -webkit-transition: all 0.1s ease-out;
+    background-color: aqua;
+    color: coral;
   }
   #yes{
     position: absolute;
@@ -15,6 +17,8 @@
     left: 70%; 
     top: 40vh;
     -webkit-transition: all 0.3s ease-out;
+    background-color: blueviolet;
+    color: ;
   }
 #bg{
   position: fixed;
@@ -26,11 +30,12 @@
   /* height: 100vh; */
   z-index: 0;
   background-repeat: no-repeat;
-  background-image: url(../img/bg.webp);
+  background-image: url(../img/bg.avif);
   background-size: cover;
   background-position: 50%;
   -webkit-filter: blur(4px);
 }
+
 
 .swal2-image{
   object-fit: contain;
